@@ -1,4 +1,93 @@
-/*
-  次のステップで、このファイルに見た目の指定を書いていきます。
-  今はHTMLの構造を確認しやすいように、まだ空の状態にしています。
-*/
+/* すべての要素で、paddingとborderを横幅に含めて計算します */
+* {
+  box-sizing: border-box;
+}
+
+/* ページ全体の基本設定です */
+body {
+  margin: 0;
+  color: #243047;
+  background-color: #f4f7fb;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* 名前とキャッチコピーを目立たせます */
+.hero {
+  padding: 80px 24px;
+  color: #ffffff;
+  background-color: #17324d;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  letter-spacing: 0.04em;
+}
+
+.hero p {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+/* 内容が画面いっぱいに広がりすぎないようにします */
+main {
+  width: min(100% - 40px, 960px);
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+/* 自己紹介などの各まとまりをカードのように見せます */
+section {
+  margin-bottom: 32px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(23 50 77 / 8%);
+}
+
+h2 {
+  margin-top: 0;
+  padding-bottom: 12px;
+  color: #17324d;
+  font-size: 1.5rem;
+  border-bottom: 3px solid #37a6b8;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li + li {
+  margin-top: 8px;
+}
+
+/* 制作実績は、あとから同じカードを追加できます */
+.work-card {
+  padding: 24px;
+  background-color: #eef6f8;
+  border-left: 5px solid #37a6b8;
+  border-radius: 8px;
+}
+
+.work-card h3 {
+  margin-top: 0;
+  color: #17324d;
+}
+
+footer {
+  padding: 24px;
+  color: #ffffff;
+  background-color: #17324d;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
