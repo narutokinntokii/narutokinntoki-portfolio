@@ -14,7 +14,7 @@
 
 - 本業で約10年間、PLCのプログラミングと電気制御に携わってきた
 - WordPressでサイトを運営した経験がある
-- 現在はHTML・CSS、Git・GitHub、Codex、Antigravity、ChatGPTを活用した企画・Web制作を学んでいる
+- 現在はHTML・CSS、JavaScript、Git・GitHub、Codex、ChatGPTを活用した企画・Web制作を学んでいる
 - ものづくりの経験を活かし、見やすく使いやすいWebページの制作を目指している
 
 ## 現在のページ構成
